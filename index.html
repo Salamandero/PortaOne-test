@@ -3,14 +3,24 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="/photos.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
 </head>
 
 <body>
-  <div id="app"></div>
-  <input type="text" placeholder="Tutochky">
+  <h3>Вам потрібно розробити алгоритм програми, яка повинна виконувати наступне:</h3>
+  <ul>
+    <li>програма приймає на вхід довільний текст і знаходить в кожному слові цього тексту найперший символ, який більше
+      НЕ
+      повторюється в аналізуємому слові</li>
+    <li>далі із отриманого набору символів програма повинна вибрати перший унікальний (тобто той, який більше не
+      зустручається в наборі) і повернути його.</li>
+  </ul>
+
+  <textarea rows="7" type="text" name="name" data-input placeholder="Write text..."></textarea>
+
+  <p data-text></p>
   <script type="module" src="/main.js"></script>
 </body>
 
