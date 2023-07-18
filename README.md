@@ -1,6 +1,7 @@
 # PortaOne-test
 Реалізований продукт
-<img src="https://github.com/Salamandero/PortaOne-test/assets/37622720/19e4edeb-efa5-47f9-becb-944b4212ad17" alt="layout-2560" width="150" heigth="150">
+
+<img src="https://github.com/Salamandero/PortaOne-test/assets/37622720/19e4edeb-efa5-47f9-becb-944b4212ad17" alt="layout-2560" width="250" heigth="450">
 
 
 Вам потрібно розробити алгоритм програми, яка повинна виконувати наступне:
