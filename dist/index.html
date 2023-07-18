@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/PortaOne-test/photos.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/PortaOne-test/assets/apple-touch-icon-c1879d1c.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABVhJREFUWEetl2lsVFUUx3/nznvtLC1IBQpjpWVTo8YoxWiiHzTRLy6JilExajQquKCJS8SF2qdSJFFwwyhx+WDiFzHGhA+uwRVEAi6IGEOBtpRCayhImGnH99495hVtmc60M1VO8j69c+/53XPPvfd/hP9g6uGQqq08lMm50fATSP7Fr105WUM41umk3AHqpZMZt3KWUTsT5GRRmaxGq6yiMeVPC91g94Shae0+0LZ79ivkypl7VAAF6fVqqlOx6gutMZcrOkdUZohwokIsL4Dgo9oDtIJuCkK79ogNt6S9ruxoICMCaDMV2Vj9GRjuEZFLQNJARTmrQulHaDfohzk/ePMHOtsu9giKjS0KoM/VpvqC5GVY+wiYM4F4WYGPdRJUlIwq34dql1X1uOvlldaCbSkA6GmeVJVyquaL0UdBpgNl18kIkCGqW1XFS/bEPhkOkTe53kdl/5T6eaqyFBkIfvxM9UcRfSg+u/1ruW7otAwCRAXXt7ThPOB1RM46DisfDh+q8kVMg7viTXt2/vtzCMCrq+lznFWIzMsrtlglUp0Gt4wyUEWzvZCNDkNROyKiq+Lx4Gl5sLMv8hgEyC5tmI/w/D/VPjR6XD3uRU9ips4qsR2KHuzG3/gGumcdqC30FxTV31G9PbmkfcMgwJ9eXY3rxl4CcwPg5I2cMBP38pdwpp0+CoCih7rxv32NcPv7EPSBGFAFoi/P+kBfTkxsa5KF+AMZyC6bdoFas1pEziiIUgogSvuh/fjrXyP87QPw+yA+GVN3IXbfesjsLwRXXWdiwcL4Y52t4nmYxW7DLYisUiU1JoAo+MEu/O/eINz2HoQ5SNTizLkVOakR//PHoXdHwZQCHWJ1Ybyp7WPZ/3BtqnpCfLFgmormeMQMKNq7D3/D6qPBbRR8Ck7jbTjnXk/Y242/dlFRAOAvteGiZNjxlqiXnthf4S5TNXeOBUAP9eB/8zLh9g8g7If4FJxz78RpvAZJjifYu2M0AAS7JO7LCsm01E8VWPlPARYyjJCBsG0r/qdL0APbIV6LMzcKfjWSGAciZQDQEq/IPjsAYIQVqmb+WDKA30+w7XOCn94lNutSnMZrkUT1QPDISmVAoSUZARz20hNdt6JFkQVjAoic/RzhHx2YmjQSz6/fkgBqn0iOc1dIl5dOjo9VPCJGmscMMMrNUAIgp9bem2xqf1uiNyDTMv1mA68CVWM6hv8ZQNuslYVVTbs/PXoReQ3nqyOrRYgeoXwrdRGNADFiBiKdYPksF4R3n+B17BoA0OUzxmcD+4IRuUlhQGgO2vEGQDOq8kIy2P2UeARDj9Ez9ddgzIvAyXkAqak459wDJ04bJeFFfh3cS/DDq3Bk79DPoyrpV6vBbaklezZHPwYBepfPGJ8I7UpFbsyTYOJAZQ3EypODg9GsD/0HQIekoCiHrejKZLWzXO4/Ks/yBEn26fqzJWZeB+YCZmxLLukdkXxETBYlH93V8a93niTb1kzFdKfhMhGWI3JqySnLd7Cg37uhPuT80r7p2AamQHBG98IE415FTJ5Q5LT/mwkRfFXdbKx9snJyx1eRBjiWu7gsf6Auka2JXWyMWQzaqEjhM1169ZESOYzyZXTOEpPatgwPnlcDw+fbvAD3lHTDzApX7rDKlcjA6UiUjhvJLjLAThXWiObeSQRde8WjiEYrQ/NHPWGf48xBzBWozEV0piBTdFizIkIGS5dFdxiRjSG6dt/+tt9K9YhlNx26Gvdwb119Je4MDfQkFSapkjSCVdWMiOlBbKeq35r4uaur3E65bIBjUx+9HzTj7pO0M3WcUVKdQbH9LWO7+BugEGR7AquNbwAAAABJRU5ErkJggg==" />
+  <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAi1JREFUOE+Nk8trE1EUxr8zuWkz0bbSisUmmMRWXHUjWIiGrpqNf4FQBB8oiqKgLqQojDCtUFddFEUUKoiPRRFduLNoN7Yi2GwENzaFVlNKkJQ6k2Rm7pEZMzFJB/Quz+N3v3vOdwkBp6gNdEYUqx/EMYAkO86qwZVve25vbLWWU2OgqHV3qqLjHBOdIqYBENpq+TIzfwX4Qcm2Zvq074bfVweYeirB4BkQDQNQgpQB7DDTGzZwdufE8rpb4wF+asldEYFX/Kf5f85rVbWO09VV0wOY46lbDGjuzRRPI7Q/0wyxKrBzLwDDuxSuEoVxKXIzf582J2I9gsOLAPW7KWXoItpHrv0FWBVU5+7CWXoKqD3A1lqNwZ9Vu5qhTX1fRiihd2CEtgHc5reTcHLPINKXIau/ID9O+3DTsewhMu8kRlkqT/xoowLrw2PY85MQ6SsIHz2NyvtpyIWpujpFcbJk6olRpmAAl9bhLC9CDB4DQgKVuakmgJROlgw9cQRE8wBtf0LLPpoBbIRIHqaSFu8Oi/ACCAcCh9gAaVHwSVWtYW+Nhp68AaJxb427B0F7DwV6gQtL4I2cm7OJ5Hl1bOWRB3AtHBVds0wY+aeLCAzGrGrxCdLy5bqVDT0eI4iHTMj68wiA2WC8VJXqBRpbK9at7BcWrvfu6OiKnCSiMyAcBChaK9qSjC8K8b2ChecpLV/2e5p+ox9krS9abRNJydQLSUygH+0Or7iSW1X9BpFN5aP8NHBxAAAAAElFTkSuQmCC" />
+  <link rel="manifest" href="data:application/manifest+json;base64,ew0KICAibmFtZSI6ICJQb3J0YU9uZSIsDQogICJzaG9ydF9uYW1lIjogIlBvcnRhT25lIiwNCiAgImljb25zIjogWw0KICAgIHsNCiAgICAgICJzcmMiOiAiL2FuZHJvaWQtY2hyb21lLTE5MngxOTIucG5nIiwNCiAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwNCiAgICAgICJ0eXBlIjogImltYWdlL3BuZyINCiAgICB9LA0KICAgIHsNCiAgICAgICJzcmMiOiAiL2FuZHJvaWQtY2hyb21lLTUxMng1MTIucG5nIiwNCiAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwNCiAgICAgICJ0eXBlIjogImltYWdlL3BuZyINCiAgICB9DQogIF0sDQogICJ0aGVtZV9jb2xvciI6ICIjZmZmZmZmIiwNCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2ZmZmZmZiIsDQogICJkaXNwbGF5IjogInN0YW5kYWxvbmUiDQp9DQo=" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>PortaOne</title>
   <script type="module" crossorigin src="/PortaOne-test/assets/index-f3b89f34.js"></script>
   <link rel="stylesheet" href="/PortaOne-test/assets/index-714b4403.css">
 </head>
@@ -20,7 +23,7 @@
       зустручається в наборі) і повернути його.</li>
   </ul>
 
-  <textarea rows="7" type="text" name="name" data-input placeholder="Write text..."></textarea>
+  <textarea rows="7" type="text" name="name" data-input placeholder="Введіть текст..."></textarea>
 
   <p data-text></p>
   
